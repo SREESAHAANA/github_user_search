@@ -1,0 +1,70 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.search-form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.user {
+  margin: 10px;
+}
+
+.user img {
+  border-radius: 50%;
+  border: 2px solid #007bff;
+}
+
+.user a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.user a:hover {
+  text-decoration: underline;
+}
